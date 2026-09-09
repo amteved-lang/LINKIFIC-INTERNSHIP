@@ -1,0 +1,167 @@
+AI/ML INTERNSHIP - TASK 1
+==========================
+
+STATUS: COMPLETED
+
+1. LEARNING OBJECTIVES
+----------------------
+[COMPLETED] Understood Artificial Intelligence (AI), Machine Learning (ML),
+            Deep Learning (DL), and Generative AI.
+
+[COMPLETED] Understood the role and responsibilities of an AI/ML Engineer.
+
+[COMPLETED] Set up the complete AI/ML development environment.
+
+[COMPLETED] Understood the internship roadmap and workflow.
+
+
+2. CONCEPTS LEARNED
+-------------------
+
+Artificial Intelligence (AI):
+AI is the broader field of creating systems that can perform tasks that
+normally require human intelligence, such as reasoning, learning,
+decision-making, and problem-solving.
+
+Machine Learning (ML):
+ML is a subset of AI in which systems learn patterns from data and use
+those patterns to make predictions or decisions without being explicitly
+programmed for every situation.
+
+Deep Learning (DL):
+Deep Learning is a subset of Machine Learning that uses multi-layered
+neural networks to learn complex patterns from large amounts of data.
+
+Generative AI:
+Generative AI is a branch of AI that can create new content such as
+text, images, audio, video, and code based on learned patterns.
+
+Relationship:
+AI
+  |
+  +-- Machine Learning
+        |
+        +-- Deep Learning
+
+Generative AI uses techniques from Machine Learning and Deep Learning
+to generate new content.
+
+
+3. ROLE OF AN AI/ML ENGINEER
+----------------------------
+An AI/ML Engineer develops, trains, evaluates, deploys, and maintains
+machine learning and artificial intelligence systems.
+
+Typical responsibilities include:
+- Collecting and preparing data
+- Data preprocessing and analysis
+- Building ML models
+- Training and evaluating models
+- Feature engineering
+- Model optimization
+- Deploying models
+- Monitoring model performance
+- Working with Python and ML libraries
+- Using Git/GitHub for version control
+
+
+4. DEVELOPMENT ENVIRONMENT SETUP
+--------------------------------
+[COMPLETED] Python installed
+[COMPLETED] VS Code installed and configured
+[COMPLETED] Git installed and configured
+[COMPLETED] Jupyter Notebook installed
+[COMPLETED] GitHub account created
+[COMPLETED] Git configured for development
+
+
+5. GITHUB SETUP
+---------------
+Repository Name:
+AI-ML-Internship
+
+Purpose:
+The repository is used to maintain internship tasks, Python practice,
+AI/ML learning work, projects, documentation, and future deliverables.
+
+Git Configuration:
+[COMPLETED] Git username configured
+[COMPLETED] Git email configured
+[COMPLETED] Local repository initialized/configured
+[COMPLETED] Files added to Git
+[COMPLETED] First commit created
+[COMPLETED] First commit pushed to GitHub
+
+
+6. README
+---------
+[COMPLETED] Professional README.md created.
+
+The README contains:
+- Introduction
+- Internship information
+- Learning goals
+- Technologies/tools
+- Task progress
+- Repository purpose
+
+
+7. YOUTUBE / LEARNING RESOURCES
+-------------------------------
+Topics covered/researched:
+- AI vs Machine Learning vs Deep Learning
+- Generative AI
+- AI/ML Engineer Roadmap
+- Python installation and setup
+- VS Code Python setup
+- Git and GitHub basics
+- Jupyter Notebook
+
+Recommended channels used as learning references:
+- Krish Naik
+- CampusX
+- Codebasics
+- Tech With Tim
+- freeCodeCamp
+
+
+8. COMPLETED TASK CHECKLIST
+---------------------------
+[X] Understand the AI/ML roadmap and internship workflow.
+[X] Learn the difference between AI, Machine Learning, Deep Learning,
+    and Generative AI.
+[X] Install Python.
+[X] Install VS Code.
+[X] Install Git.
+[X] Install Jupyter Notebook.
+[X] Create a GitHub account.
+[X] Configure Git.
+[X] Create GitHub repository: AI-ML-Internship
+[X] Create professional README.md.
+[X] Push the first Git commit.
+
+
+9. DELIVERABLES
+---------------
+[X] Python installed
+[X] VS Code configured
+[X] Git configured
+[X] GitHub repository created
+[X] README uploaded
+[X] First Git commit
+
+
+10. TASK 1 COMPLETION SUMMARY
+-----------------------------
+Task 1 has been successfully completed.
+
+I have established the basic development environment required for the
+AI/ML internship and understood the fundamental differences between
+AI, Machine Learning, Deep Learning, and Generative AI.
+
+I also created and configured the AI-ML-Internship GitHub repository,
+created the README.md documentation, configured Git, and pushed the
+first Git commit.
+
+NEXT STEP:
+Proceed to Task 2 and continue building practical Python and AI/ML skills.
