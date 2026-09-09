@@ -1,0 +1,55 @@
+# Student Marks Analysis using NumPy
+# Task 4 - AI/ML Internship
+
+import numpy as np
+
+print("======================================")
+print("       STUDENT MARKS ANALYSIS")
+print("======================================")
+
+# Student names
+students = np.array(["Ved", "Rahul", "Priya", "Aman", "Neha"])
+
+# Marks of students in 3 subjects
+marks = np.array([
+    [85, 90, 78],
+    [72, 68, 80],
+    [92, 88, 95],
+    [65, 70, 60],
+    [80, 85, 82]
+])
+
+print("\nStudent Marks:")
+print(marks)
+
+# Calculate total marks of each student
+total_marks = np.sum(marks, axis=1)
+
+# Calculate average marks of each student
+average_marks = np.mean(marks, axis=1)
+
+# Highest and lowest marks
+highest_mark = np.max(marks)
+lowest_mark = np.min(marks)
+
+# Overall average
+overall_average = np.mean(marks)
+
+print("\n----- Student Analysis -----")
+
+for i in range(len(students)):
+    print("\nStudent:", students[i])
+    print("Total Marks:", total_marks[i])
+    print("Average Marks:", round(average_marks[i], 2))
+
+print("\n----- Overall Analysis -----")
+
+print("Overall Average:", round(overall_average, 2))
+print("Highest Mark:", highest_mark)
+print("Lowest Mark:", lowest_mark)
+
+# Find student with highest average
+top_student_index = np.argmax(average_marks)
+
+print("\nTop Student:", students[top_student_index])
+print("Top Student Average:", round(average_marks[top_student_index], 2))
