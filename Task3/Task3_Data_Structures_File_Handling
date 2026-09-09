@@ -1,0 +1,105 @@
+# Python Data Structures Practice
+# Task 3 - AI/ML Internship
+
+
+# ==========================================
+# 1. LIST
+# ==========================================
+
+students = ["Ved", "Rahul", "Priya", "Aman"]
+
+print("LIST:")
+print(students)
+
+students.append("Neha")
+print("After adding a student:", students)
+
+print("First student:", students[0])
+
+
+# ==========================================
+# 2. TUPLE
+# ==========================================
+
+student_details = ("Ved", 21, "B.Tech")
+
+print("\nTUPLE:")
+print(student_details)
+
+print("Name:", student_details[0])
+print("Age:", student_details[1])
+print("Course:", student_details[2])
+
+
+# ==========================================
+# 3. DICTIONARY
+# ==========================================
+
+student = {
+    "name": "Ved",
+    "age": 21,
+    "course": "B.Tech",
+    "branch": "Industrial IoT"
+}
+
+print("\nDICTIONARY:")
+print(student)
+
+print("Student Name:", student["name"])
+print("Course:", student["course"])
+
+student["cgpa"] = 8.0
+
+print("Updated Dictionary:", student)
+
+
+# ==========================================
+# 4. SET
+# ==========================================
+
+skills = {"Python", "SQL", "Python", "Machine Learning"}
+
+print("\nSET:")
+print(skills)
+
+skills.add("Git")
+
+print("After adding Git:", skills)
+
+
+# ==========================================
+# 5. LOOP THROUGH DATA STRUCTURES
+# ==========================================
+
+print("\nSTUDENT LIST:")
+
+for student_name in students:
+    print(student_name)
+
+
+print("\nSTUDENT DICTIONARY:")
+
+for key, value in student.items():
+    print(key, ":", value)
+
+
+# ==========================================
+# 6. BASIC FILE WRITING
+# ==========================================
+
+with open("sample.txt", "w") as file:
+    file.write("Python File Handling Practice\n")
+    file.write("Learning Lists, Tuples, Dictionaries and Sets.\n")
+
+print("\nData written to sample.txt")
+
+
+# ==========================================
+# 7. BASIC FILE READING
+# ==========================================
+
+with open("sample.txt", "r") as file:
+    content = file.read()
+
+print("\nFILE CONTENT:")
+print(content)
