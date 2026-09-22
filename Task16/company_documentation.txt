@@ -1,0 +1,21 @@
+HearMe is an AI-powered voice agent platform designed to automate customer communication using artificial intelligence.
+
+The HearMe system combines Speech-to-Text, Large Language Models, business logic, database retrieval, and Text-to-Speech technologies. Customer speech is first converted into text using an Automatic Speech Recognition system.
+
+After speech recognition, the transcribed text is processed by a Large Language Model. The model identifies the customer's intent and generates an appropriate response based on the available information.
+
+HearMe can retrieve relevant customer or business information from databases when required. This allows the voice agent to provide context-aware responses instead of relying only on predefined scripts.
+
+The generated text response is converted into speech using Text-to-Speech technology. The synthesized voice is then played back to the customer during the call.
+
+The basic HearMe processing pipeline is Voice Input, Speech-to-Text, LLM Processing, Business Logic, Database Retrieval, Response Generation, Text-to-Speech, and Voice Output.
+
+HearMe supports multilingual customer interactions. Hindi and Hinglish speech recognition can be evaluated using Automatic Speech Recognition models.
+
+ASR model performance can be measured using Word Error Rate, Character Error Rate, and inference time. Lower Word Error Rate and Character Error Rate indicate better transcription accuracy.
+
+HearMe aims to reduce repetitive work performed by human customer support agents. The AI voice agent can handle routine customer conversations automatically and escalate conversations to human agents when required.
+
+A typical customer journey begins when the customer speaks during a call. The system recognizes the speech, identifies the intent, retrieves relevant knowledge, generates an AI response, converts the response into speech, and sends the response back to the customer.
+
+Retrieval-Augmented Generation can improve AI responses by retrieving relevant information from company documentation before generating an answer. This helps provide answers that are grounded in company-specific information.
