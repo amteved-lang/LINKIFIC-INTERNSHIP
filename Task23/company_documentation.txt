@@ -1,0 +1,17 @@
+HearMe is an AI-powered voice agent platform designed to automate customer communication.
+
+HearMe uses Speech-to-Text technology to convert customer speech into written text.
+
+Automatic Speech Recognition performance can be evaluated using Word Error Rate, Character Error Rate, and inference time.
+
+Retrieval-Augmented Generation helps HearMe retrieve relevant company information before creating customer responses.
+
+The platform can use Large Language Models to understand customer questions and generate natural-language responses.
+
+Text-to-Speech converts generated responses into spoken audio for customers.
+
+Routine customer-support queries can be handled automatically.
+
+Complex or unresolved customer issues can be escalated to a human customer support agent.
+
+HearMe can use company documentation and approved knowledge sources to provide grounded customer-support responses.
